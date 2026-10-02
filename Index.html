@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumisang Ndhlovu | IT System Development</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <div class="nav-logo">Tumisang Ndhlovu</div>
+        <button class="nav-toggle" id="navToggle">Menu</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="home" class="hero">
+        <div class="container">
+            <p class="eyebrow">Gauteng City College Second Year</p>
+            <h1>IT System Development student focused on building reliable and usable software.</h1>
+            <p class="hero-text">I am Tumisang based in Glen Austin. I work with Java, web development and small business systems. I currently build TimelessGlow, a skincare and ice cream ecommerce concept.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="CV.pdf" class="btn secondary">View My CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container grid-two">
+            <div>
+                <h2>About Me</h2>
+                <p>I am a second year Information Technology student in System Development at Gauteng City College. My interest is in practical systems that solve real problems for small businesses.</p>
+                <p>I started Tumieyy's as a small project to understand stock control, online payments and customer data handling. That project taught me validation, risk planning and deployment.</p>
+                <p>I prefer clear code over complex code. I document my work and test on mobile before submitting.</p>
+            </div>
+            <div class="about-card">
+                <h3>Education</h3>
+                <p><strong>Information Technology: System Development</strong><br>Gauteng City College 2025 to Present</p>
+                <h3>Experience</h3>
+                <p><strong>Founder, TimelessGlow</strong><br>Product formulation, Wix ecommerce management, customer support</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section light">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Java Swing and Validation</li>
+                        <li>HTML5 Semantic Markup</li>
+                        <li>CSS3 and Responsive Layout</li>
+                        <li>JavaScript and Form Validation</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>NetBeans and VS Code</li>
+                        <li>Git and GitHub Pages</li>
+                        <li>Wix Website Management</li>
+                        <li>Excel Risk Analysis</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Strengths</h3>
+                    <ul>
+                        <li>Input Validation Design</li>
+                        <li>Risk Management Planning</li>
+                        <li>Clean Documentation</li>
+                        <li>Customer Focused Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="java">Java</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                </div>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card" data-category="java">
+                    <h3>Advanced Data Validation Form</h3>
+                    <p>Java Swing desktop form with full validation. Includes presence check, type check, length check for SA ID 13 digits, range check for age 18 to 120, and email format check.</p>
+                    <p class="meta">Package advanced NetBeans</p>
+                    <a href="https://github.com/tumieyndlovuu" class="link">View Code in GitHub</a>
+                </article>
+                <article class="project-card" data-category="web">
+                    <h3>TimelessGlow E Commerce</h3>
+                    <p>Wix based store for skincare and ice cream. Implemented product pages, cooler bag delivery logic for Pretoria, and risk register for spoilage and loadshedding.</p>
+                    <p class="meta">Wix HTML Risk Analysis</p>
+                    <a href="#" class="link">View Live Concept</a>
+                </article>
+                <article class="project-card" data-category="web">
+                    <h3>Risk Management Plan</h3>
+                    <p>Complete risk management documentation with 8 risks, quantitative analysis with EMV, and 5 by 5 heat map. Used for TimelessGlow operations planning.</p>
+                    <p class="meta">Excel Risk Matrix</p>
+                    <a href="#" class="link">View Documentation</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section light">
+        <div class="container grid-two">
+            <div>
+                <h2>Contact</h2>
+                <p>For academic or project enquiries use the form or email directly. I respond within 24 hours.</p>
+                <p><strong>Email:</strong> tumisangndhlovu779@gamil.com<br><strong>Location:</strong> Clayville Olifantsfontein Gauteng</p>
+                <p><strong>GitHub:</strong> https://github.com/tumieyndlovuu</p>
+            </div>
+            <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="cName">Name</label>
+                    <input type="text" id="cName" required>
+                    <span class="error" id="eName"></span>
+                </div>
+                <div class="form-group">
+                    <label for="cEmail">Email</label>
+                    <input type="email" id="cEmail" required>
+                    <span class="error" id="eEmail"></span>
+                </div>
+                <div class="form-group">
+                    <label for="cMessage">Message</label>
+                    <textarea id="cMessage" rows="5" required></textarea>
+                    <span class="error" id="eMessage"></span>
+                </div>
+                <button type="submit" class="btn primary full">Send Message</button>
+                <p class="success" id="formSuccess"></p>
+            </form>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container footer-content">
+        <p>Tumisang Ndhlovu 2026 Gauteng City College</p>
+        <p>Built with HTML CSS JavaScript</p>
+    </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
