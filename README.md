@@ -5,7 +5,7 @@ A personal portfolio website for a second year Information Technology: System De
 Built with: clean beige theme with serif headings, responsive layout, with sections for About, Skills, Projects and Contact. Tagline from site: "IT System Development student focused on building reliable and usable software."
 
 ### Overview of Technologies Used
-- **HTML5:** Semantic markup - header, sections for Home/About/Skills/Projects/Contact, cards and forms as seen in screenshots
+- **HTML5:** Semantic markup - header, sections for Home/About/Skills/Projects/Contact, cards and forms
 - **CSS3:** Custom styling with beige paper background #FCFAF7, responsive grid layout, serif font for headings (About Me, Skills, Projects, Contact), sans-serif for body
 - **JavaScript (Vanilla):** Project filtering (All / Java / Web buttons in Projects section), form validation for Name/Email/Message, smooth scroll for View Projects / View My CV buttons
 - **No Frameworks:** Pure HTML/CSS/JS - no Bootstrap, as required
